@@ -48,7 +48,7 @@ Este proyecto proporciona una API que permite gestionar el apartado de la admini
 
 ## 7. Devuelve un listado con todas las asignaturas ofertadas en el `Grado en Ingeniería Informática (Plan 2015)`.
 
-	    http://localhost:5272/api/persona/consulta7
+	    http://localhost:5272/api/asignatura/consulta7
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/d3e67c1f-3d85-4c27-bb2d-d926c35381c0)
 
 
@@ -60,7 +60,7 @@ Este proyecto proporciona una API que permite gestionar el apartado de la admini
 
 ## 9. Devuelve un listado con el nombre de las asignaturas, año de inicio y año de fin del curso escolar del alumno con nif `26902806M`.
 
-	    http://localhost:5272/api/asignatura/consulta9
+	    http://localhost:5272/api/matricula/consulta9
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/28577062-b0c9-4d7d-9881-7f71f5d784ca)
 
 
@@ -72,7 +72,7 @@ Este proyecto proporciona una API que permite gestionar el apartado de la admini
 
 ## 11. Devuelve un listado con todos los alumnos que se han matriculado en alguna asignatura durante el curso escolar 2018/2019.
 
- 	    http://localhost:5272/api/persona/consulta11
+ 	    http://localhost:5272/api/matricula/consulta11
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/7bad807b-326a-4029-a005-b50df8594aef)
 
 
@@ -84,25 +84,25 @@ Este proyecto proporciona una API que permite gestionar el apartado de la admini
 
 ## 13. Devuelve un listado con los profesores que no están asociados a un departamento.Devuelve un listado con los departamentos que no tienen profesores asociados.
 
- 	    http://localhost:5272/api/departamento/consulta13
+ 	    http://localhost:5272/api/persona/consulta13
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/1a2a340c-662f-40a0-af52-265b9da31f69)
 
 
 ## 14. Devuelve un listado con los profesores que no imparten ninguna asignatura.
 
- 	    http://localhost:5272/api/profesor/consulta14
+ 	    http://localhost:5272/api/persona/consulta14
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/c0c907a6-7caf-4e54-a50c-a200eeeaa609)
 
 
 ## 15. Devuelve un listado con las asignaturas que no tienen un profesor asignado.
 
- 	    http://localhost:5272/api/asignatura/consulta15
+ 	    http://localhost:5272/api/persona/consulta15
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/ef1fbbff-21da-4542-8e9e-7c28ddbbfbc9)
 
 
 ## 16. Devuelve un listado con todos los departamentos que tienen alguna asignatura que no se haya impartido en ningún curso escolar. El resultado debe mostrar el nombre del departamento y el nombre de la asignatura que no se haya impartido nunca.
 
- 	    http://localhost:5272/api/asignatura/consulta16
+ 	    http://localhost:5272/api/persona/consulta16
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/0b0aeb91-cb21-4f6a-8151-ba69e00772dc)
 
 
@@ -126,7 +126,7 @@ Este proyecto proporciona una API que permite gestionar el apartado de la admini
 
 ## 20. Devuelve un listado con todos los departamentos y el número de profesores que hay en cada uno de ellos. Tenga en cuenta que pueden existir departamentos que no tienen profesores asociados. Estos departamentos también tienen que aparecer en el listado.
 
- 	    http://localhost:5272/api/departamento/consulta20
+ 	    http://localhost:5272/api/persona/consulta20
 ![image](https://github.com/AndresAngarita10/universidadEvaluacion/assets/106509898/85f6700c-f884-4cea-a480-682abf6e62f9)
 
 
